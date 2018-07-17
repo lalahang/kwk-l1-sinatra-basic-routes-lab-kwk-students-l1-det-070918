@@ -4,3 +4,4 @@ get '/hello/:id' do
   "Hello #{@name}!"
 
 end
+
