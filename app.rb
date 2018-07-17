@@ -1,4 +1,4 @@
-class = App
+class App
   get '/hello/:id' do 
   @name = params[:id]
   "Hello #{@name}!"
